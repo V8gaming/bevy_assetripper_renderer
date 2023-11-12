@@ -1,0 +1,30 @@
+[package]
+name = "bevy_assetripper_renderer"
+version = "0.1.6"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+arrayvec = "0.7.4"
+bevy = {version = "0.11.3", features = ["jpeg"]}
+bevy_atmosphere = "0.7.0"
+bevy_spectator = "0.3.0"
+blake3 = "1.5.0"
+chrono = "0.4.31"
+hex = "0.4.3"
+indicatif = "0.17.7"
+itertools = "0.11.0"
+serde = "1.0.190"
+serde_yaml = "0.9.27"
+signal-hook = "0.3.17"
+toml = "0.8.6"
+walkdir = "2.4.0"
+
+# Enable a small amount of optimization in debug mode
+[profile.dev]
+opt-level = 1
+
+# Enable high optimizations for dependencies (incl. Bevy), but not for our code:
+[profile.dev.package."*"]
+opt-level = 3
