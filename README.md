@@ -3,5 +3,5 @@ This is a bevy based renderer for [AssetRipper](https://github.com/AssetRipper/A
 
 ## Licence
 Rust ecosystem standard duel-licencing, all code in this repository is dual-licensed under either:
-    MIT License (see [LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)
-    Apache License, Version 2.0 (see [LICENSE-APACHE](LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0)
+- MIT License (see [LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)
+- Apache License, Version 2.0 (see [LICENSE-APACHE](LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0)
